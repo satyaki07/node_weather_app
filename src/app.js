@@ -42,7 +42,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
 	res.render('help', {
 		title: 'Help Page',	
-		message: 'AAj kal chodne ko help karna bolte hai!!',
+		message: 'This is the help section.',
 		name: 'Satyaki Bose'
 	})
 })
